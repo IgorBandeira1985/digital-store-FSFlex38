@@ -1,4 +1,4 @@
-@media (width >=480px) {
+@media (width >= 480px) {
     main {
         padding: 63px 50px 80px;
     }
@@ -12,7 +12,7 @@
     }
 }
 
-@media (width >=768px) {
+@media (width >= 768px) {
     main {
         form {
             width: 583px;
@@ -71,6 +71,77 @@
                         display: flex;
                         flex-direction: column;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (width >= 1200px) {
+    main {
+        display: flex;
+        
+        .banner {
+            display: block;
+        }
+    }
+
+    footer {
+        .first-box {
+            display: flex;
+            justify-content: space-between;
+
+            .information {
+                gap: 60px;
+            }
+        }
+    }
+}
+
+@media (width >= 1440px) {
+    footer {
+        padding: 72px 97px 22px;
+
+        .first-box {
+            .social {
+                .logo {
+                    margin-bottom: 35px;
+
+                    img {
+                        width: 33px;
+                    }
+
+                    span {
+                        font-size: 36px;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin-bottom: 40px;
+                }
+            }
+
+            .information {
+                gap: 100px;
+
+                div {
+                    h2 {
+                        margin-bottom: 28px;
+                    }
+
+                    ul {
+                        a {
+                            line-height: 38px;
+                        }
+                    }
+                }
+            }
+
+            .contact {
+                h2 {
+                    margin-bottom: 28px;
                 }
             }
         }
